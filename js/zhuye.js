@@ -62,12 +62,12 @@ $(function(){
 
 			}				}
 
+$(document).bind("swipeUp",scrollFunc,false);
 			if(document.addEventListener){
 				document.addEventListener('DOMMouseScroll',scrollFunc,false);
 				document.addEventListener('swipe',scrollFunc,false);
 }//W3C
 window.onmousewheel=document.onmousewheel=scrollFunc;//IE/Opera/Chrome/Safari
-// $(document).bind("swipe",scrollFunc,false);
 // $(document).on("scrollstart",function(){
 // scrollFunc
 // });

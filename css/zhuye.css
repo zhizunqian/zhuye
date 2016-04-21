@@ -95,7 +95,7 @@ a{
 }
 .con2 a span{
 	display: inline-block;
-	font-size: 20px;
+	font-size: 22px;
 	color: #1c1c1c;
 	text-decoration: underline;
 }
@@ -125,7 +125,7 @@ a{
 	border-radius: 20px;
 	border: none;
 	text-align: center;
-	font-size: 18px;
+	font-size: 20px;
 	color: #fff;
 	position: absolute;
 	bottom: 26px;
@@ -215,16 +215,16 @@ a{
 }
 .yiji .title{
 	color: #444;
-	font-size: 20px;
+	font-size: 22px;
 	margin-bottom: 10px;
 }
 .yiji .id,.yiji .riqi{
 	color: #a6a6a6;
-	font-size: 18px;
+	font-size: 20px;
 	margin-bottom: 10px;
 }
 .yiji .yongjin{
-	font-size: 18px;
+	font-size: 20px;
 	color: #f7b41f;
 }
 .yiji .shengyubox span:first-child{

@@ -1,0 +1,314 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: 微软雅黑,Arial;
+}
+a{
+	text-decoration: none;
+	color: #848484;
+}
+.dingbu{
+	position: fixed;
+	bottom: 120px;
+	right: 80px;
+	z-index: 999;
+	display: block;
+	width: 50px;
+	height: 50px;
+	display: none;
+}
+.top{
+	background: #f04848;
+	width: 100%;
+	text-align: center;
+	line-height: 90px;
+	color: #fff;
+	font-size: 32px;
+}
+.xinxi{
+	padding: 30px 0 0 0px;
+}
+.xinxi .con{
+	width: 100%;
+	height: auto;
+	padding-left: 24px;
+	padding-right: 24px;
+	box-sizing:border-box;
+}
+.xinxi .con1{
+	height: 32px;
+}
+.con1 .namebox{
+	width: 40%;
+	height: 100%;
+	line-height: 32px;
+	font-size: 24px;
+	float: left;
+}
+.con1 .name{
+	color: #313131;
+}
+.con1 .jinbibox{
+	width: 30%;
+	float: left;
+	height: 100%;
+}
+.con1 .jinbi{
+	font-size: 32px;
+	font-style: italic;
+	line-height: 32px;
+	color: #313131;
+}
+.con1 a{
+	width: 15%;
+	float: left;
+	text-align:right;
+}
+.xinxi .con2{
+	height:230px; 
+	width: 100%;
+}
+.xinxi .scon2{
+	width: 25%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.con2 .touxiang{
+	width: 140px;
+	height: 140px;
+	background: #464646;
+	margin-top: 25px;
+	position: relative;
+}
+.con2 .qiandaobox{
+	text-align: right;
+}
+.con2 .tixianbox{
+	padding-left: 30px;
+	box-sizing:border-box;
+}
+.con2 .huangguan{
+	position: absolute;
+	top: -24px;
+	left: -24px;
+}
+.con2 a span{
+	display: inline-block;
+	font-size: 20px;
+	color: #1c1c1c;
+	text-decoration: underline;
+}
+.con2 a span:hover{
+	color:#e84817;
+}
+.con2 .vipbox a span:hover{
+	color: #e84817;
+}
+.con2 .touxiangbox a span{
+	width: 140px;
+	text-align: center;
+	margin-top: 20px;
+}
+.con2 .vipbox a span{
+	color: red;
+}
+.con2 .scon2con{
+	margin-top: 42px;
+}
+.con2 .vipbox img{
+	margin-right: 10px;
+}
+.con2 button{
+	width: 105px;
+	height: 42px;
+	border-radius: 20px;
+	border: none;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	position: absolute;
+	bottom: 26px;
+	font-family: 微软雅黑;
+}
+.con2 .chongzhibtn{
+	background: #f59038;
+}
+.con2 .tixianbtn{
+	background: #e95c4a;
+}
+.con2 .qiandaobtn{
+	background: #40bdb5;
+	right: 0;
+}
+.con2 .tixianbox span,.con2 .qiandao span{
+	display: block;
+}
+.con2 .tixianbox span:last-child,.con2 .qiandao span{
+	margin-top: 30px;
+}
+.piao{
+	display: block;
+	width: 100%;
+	height: 48px;
+	background: #e7e7e7;
+}
+.piao .piaozi{
+	color: #f07002;
+	line-height: 48px;
+	font-size: 24px;
+}
+.fabubox{
+	padding-left: 24px;
+	padding-right: 24px;
+	box-sizing:border-box;
+	height: 138px;
+	width: 100%;
+	text-align: center;
+}
+.fabubox button{
+	width: 100%;
+	height: 84px;
+	background: #f04848;
+	border-radius: 42px;
+	border:none;
+	margin-top: 29px;
+	font-size: 34px;
+	color: #fff;
+	font-family: 微软雅黑;
+}
+.kapian{
+	background: #ececec;
+	width: 100%;
+	height: auto;
+	padding-top: 24px;
+	position: relative;
+}
+.kapian .yiji{
+	width: 100%;
+	height: 179px;
+	background: #fff;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 29px;
+	box-sizing:border-box;
+	position: relative;
+}
+.yiji .touxiangbox{
+	width: 25%;
+	float: left;
+}
+.yiji .kpcon{
+	width: 45%;
+	float: left;
+}
+.yiji .shengyubox{
+	width: 30%;
+	float: left;
+	margin-top: 28px;
+	text-align: right;
+}
+.yiji .touxiang{
+	width: 122px;
+	height: 122px;
+	background: #000;
+}
+.yiji .title{
+	color: #444;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.yiji .id,.yiji .riqi{
+	color: #a6a6a6;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.yiji .yongjin{
+	font-size: 18px;
+	color: #f7b41f;
+}
+.yiji .shengyubox span:first-child{
+	font-size: 22px;
+	color: #818181;
+}
+.yiji .shengyubox span:last-child{
+	font-size: 32px;
+	color: #ff4949;
+}
+.yiji .jiantoubox{
+	width: 180px;
+	height: 110px;
+	position: absolute;
+	bottom: 30px;
+	right: 24px;
+	background: url(../img/jt.png) no-repeat;
+	background-position:100% 100%; 
+}
+.erji{
+	height: 180px;
+	width: 100%;
+	padding-right: 24px;
+	padding-left: 24px;
+	box-sizing:border-box;
+	padding-top:19px ;
+	visibility: hidden;
+	overflow: hidden;
+	position: absolute;
+	top: 180px;
+	left: 0;
+    transform: translateX(-300px);
+    background: #fff;
+}
+.erji p{
+	font-size: 14px;
+	color: #878787;
+	margin: 0;
+	padding:0;
+	margin-bottom: 5px;
+}
+.erji .renwu{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.erji .jierenwubox{
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: right;
+}
+.erji button{
+	margin-top: 10%;
+	width: 152px;
+	height: 50px;
+	border-radius: 24px;
+	border: none;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	background: #f04848;
+	font-family: 微软雅黑;
+}
+.kapianbox{
+	height: auto;
+	width: 100%;
+}
+/*#erji:checked~.erji{
+	visibility: visible;
+	transform: none;
+	position: static;
+	transition: transform 300ms ease;
+}
+#erji0:checked~.erji{
+	visibility: visible;
+	transform: none;
+	position: static;
+	transition: transform 300ms ease;
+}
+.kapian input{
+	display: none;
+}*/
+
+
+

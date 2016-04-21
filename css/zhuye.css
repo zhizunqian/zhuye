@@ -9,7 +9,7 @@ a{
 }
 .dingbu{
 	position: fixed;
-	bottom: 120px;
+	bottom: 80px;
 	right: 80px;
 	z-index: 999;
 	display: block;
@@ -58,6 +58,7 @@ a{
 	font-style: italic;
 	line-height: 32px;
 	color: #313131;
+	font-family: Arial;
 }
 .con1 a{
 	width: 15%;

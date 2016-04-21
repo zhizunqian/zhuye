@@ -38,43 +38,29 @@ $(function(){
 			})
 		}
 	}
-
-	var nums=0;
-	$(window).scroll(function(){
-		var scrollFunc=function(e){
-			e=e || window.event;
-			if(getData()){
-				if(e.wheelDelta){
-					if(e.wheelDelta==-120){
-						if(getfn()==false){
-							return;
-						}
-						else{
-							nums++;
-							if(nums==2){
-								$(".dingbu").css({display:"block"})
-							}
-							// console.log(nums);
-						}
+		$(".dingbu").click(function(){
+			$(this).css({display:"none"});
+		})
+		var num2=0;
+		$(window).scroll(function(){
+			var scrollFunc=function(e){
+				e=e || window.event;
+				if(getData()){
+					if(getfn()==false){
+						return;
 					}
+					num2++;
+					getfn();
 				}
-				getfn();
-
-			}				}
-
-$(document).bind("swipeUp",scrollFunc,false);
+			}
 			if(document.addEventListener){
 				document.addEventListener('DOMMouseScroll',scrollFunc,false);
 				document.addEventListener('swipe',scrollFunc,false);
 }//W3C
 window.onmousewheel=document.onmousewheel=scrollFunc;//IE/Opera/Chrome/Safari
-// $(document).on("scrollstart",function(){
-// scrollFunc
-// });
-// $(document).scrollstart=scrollFunc;//IE/Opera/Chrome/Safari
+$(document).bind("swipeUp",scrollFunc,false);
 
 })
-
 	// 点击卡片的效果
 	var pre;
 	var erjichuxian=function(es){
@@ -98,6 +84,12 @@ function getData(){
 	var offset=$(kapian[kapian.length-1]).offset().top+Math.floor($(kapian[kapian.length-1]).outerHeight()/2);
 	var height=$(window).height();
 	var scroll=$(document).scrollTop();
+	if(scroll>=500){
+		$(".dingbu").css({display:"block"});
+	}
+	if(scroll<500){
+		$(".dingbu").css({display:"none"});
+	}
 	return offset<scroll+height?true:false;
 }
 

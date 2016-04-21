@@ -125,7 +125,7 @@ a{
 	border-radius: 20px;
 	border: none;
 	text-align: center;
-	font-size: 20px;
+	font-size: 18px;
 	color: #fff;
 	position: absolute;
 	bottom: 26px;
@@ -220,11 +220,11 @@ a{
 }
 .yiji .id,.yiji .riqi{
 	color: #a6a6a6;
-	font-size: 20px;
+	font-size: 18px;
 	margin-bottom: 10px;
 }
 .yiji .yongjin{
-	font-size: 20px;
+	font-size: 18px;
 	color: #f7b41f;
 }
 .yiji .shengyubox span:first-child{
